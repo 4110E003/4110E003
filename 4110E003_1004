@@ -43,110 +43,139 @@
 ## 整數的各種運算 [參考範例](https://www.w3schools.com/python/python_numbers.asp)  [Python Operators](https://www.w3schools.com/python/python_operators.asp)
 
 ```python
-
-
-```
-
-```python
-
-
-```
+    x=(10+5)
+    print(x)
 
 ```python
-
-
-```
+    x=(10-5)
+    print(x)
 
 ```python
+    x=5
+    y=10
+    print(x*y)
 
+```python
+x=5
+y=10
+print(x/y)
 
-```
 
 ## 字串str的各種運算 [資料來源](https://www.w3schools.com/python/python_strings.asp)
 ```python
 # Multiline Strings
 # You can assign a multiline string to a variable by using three quotes:
 
-a = """Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."""
+a="4110E003"
+print(a[0:4])
+```
+
+```python
+a = "4110E003"
 print(a)
 ```
 
 ```python
-a = "Hello, World!"
-print(a[0:7])
-```
-
-```python
-for x in "banana":
+for x in "4110E003":
   print(x)
 ```
 
 ```python
-
+a = '''asdfghjklqwertyuiop'''
+print(a)
 
 ```
 
 ## 列表list的各種運算  [參考範例](https://www.w3schools.com/python/python_lists.asp)
 
 ```python
-
-
-```
-
-```python
-
+thislist = ["4110E003", "ksu", "IE"]
+print(thislist)
 
 ```
 
 ```python
-
+mylist = ["apple", "banana", "cherry"]
+print(type(mylist))
 
 ```
 
 ```python
+thislist = list(("apple", "banana", "cherry")) 
+print(thislist)
 
+```
+
+```python
+thislist = ["apple", "banana", "cherry"]
+print(thislist[0])
 
 ```
 ```python
+thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+print(thislist)
 
 
 ```
 ## 字典dict的各種運算 [參考範例](https://www.w3schools.com/python/python_dictionaries.asp)
 
 ```python
-
-
-```
-
-```python
-
-
-```
-
-
-
-```python
-
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
 
 ```
 
 ```python
-
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["brand"])
 
 ```
 
 
 
 ```python
-
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
+}
+print(thisdict)
 
 ```
 
 ```python
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(type(thisdict))
 
+```
+
+
+
+```python
+print(len(thisdict))
+
+```
+
+```python
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["year"])
 
 ```
 
